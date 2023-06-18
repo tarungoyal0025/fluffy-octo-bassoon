@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/detailpage.css">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">   
+    <title>T Shoppee</title>
+</head>
+
+
+<body>
+    <!--header section start -->
+    <div class="header_section">
+        <nav class="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">lOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT US</a>
+                    </li>
+                    <li class="nav-item"  >
+                        <a class="nav-link" href="orders.html"><i class='bx bx-user' ></i></a>
+                    </li> 
+                    <li class="nav-item"  >
+                        <a class="nav-link" href="#"><i class='bx bx-search' ></i></a>
+                    </li>                    
+                    <li class="nav-item"  >
+                        <a class="nav-link" href="cart.html"><i class='bx bx-cart' ></i></a>
+                    </li> 
+                    <li class="nav-item "  >
+                        <a class="nav-link" href="index.html"><img src="/images/logo/logo9.jpeg" alt=""></a>
+                    </li>       
+                </ul>
+        </nav>
+    </div> 
+
+<div class="container_detailpage">
+    <div class="propic">
+        <img src="/images/detail/img1.webp" alt="" class="large_img">
+        <div class="contentfordetailpage">
+            <p class="pt1">
+               Silver Mini Dress
+            </p>
+            <h3><sup>₹</sup>2999</h3>
+            <select>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+            <button class="btnpg">Add to Cart</button>
+            <p class="pt2">
+                Product Description
+            </p>
+            <p class="pt3">
+                A corset dress made as a combination of two silhouettes : Sequins and Fur. 
+                The perfect outfit for that glam night party, your own birthday ,prom night & basically every event! 
+            </p>
+    <img src="/images/detail/img1.webp" alt="" class="small_img" >
+    <img src="/images/detail/img2.webp" alt="" class="small_img" >
+    <img src="/images/detail/img3.webp" alt=""  class="small_img">
+    <img src="/images/detail/img4.webp" alt="" class="small_img">
+        </div>
+    </div>
+</div>
+
+
+ <!-- Javascript For the detail page image change  -->
+<script>
+var prod = document.getElementsByClassName("large_img")[0];
+var smallimg = document.getElementsByClassName("small_img");
+
+for (let i = 0; i < smallimg.length; i++) {
+  smallimg[i].addEventListener('click', function() {
+    const smallImageSrc = this.src;
+    prod.src = smallImageSrc;
+  });
+}
+</script>
+
+
+
+    <div class="footer_section">
+        <div class="container">
+            <div class="row">
+                <div class="menu">
+                    <h3 class="useful_text">Menu</h3>
+                    <div class="footer_menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="login.html">Log In</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="usefullink">
+                    <h1 class="useful_text">Useful Link</h1>
+                    <p class="dummy_text">FAQ </p>
+                    <p class="dummy_text">Reviews </p>
+                    <p class="dummy_text">Privacy Policy and Terms of Service</p>
+                    <p class="dummy_text">Return and Refund Policy</p>
+                    <p class="dummy_text">Payment Options </p>
+
+                </div>
+                <div class="contactus">
+                    <h1 class="useful_text">Contact Us</h1>
+                    <div class="location_text">
+                        <ul>
+                            <li> 
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i><span>Address : 37C,Chandigarh</span>                   
+                            </li>
+                            <li>                             
+                                    <i class="fa fa-phone" aria-hidden="true"></i><span>Call :
+                                        +91 9876543210</span>                               
+                            </li>
+                            <li>                                
+                                    <i class="fa fa-envelope" aria-hidden="true"></i><span>Email
+                                        : TShoppee@gmail.com</span> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer section end -->
+    <!-- copyright section start -->
+    <div class="copyright_section">
+        <div class="container">
+            <p class="copyright_text">© All Rights Reserved | 2023 T-Shoppee</p>
+        </div>
+    </div>
+</body>
+
+</html>

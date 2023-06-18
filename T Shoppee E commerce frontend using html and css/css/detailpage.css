@@ -1,0 +1,76 @@
+.container_detailpage .propic img{
+    width: 500px;
+    height: 610px;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding: 30px 30px;
+    float: left;
+}
+.container_detailpage .contentfordetailpage{
+    float: left;
+    margin-top: 100px;
+}
+.container_detailpage .contentfordetailpage .pt1{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.container_detailpage .contentfordetailpage h3{
+    font-size: 22px;
+    color: black;
+    font-weight: 200;
+}
+.container_detailpage .contentfordetailpage select{
+    font-size: 18px;
+    color: black;
+    font-weight: 100;
+    margin-top: 13px;
+    padding: 3px 3px;
+    border: 2px solid black;
+}
+.container_detailpage .contentfordetailpage .btnpg{
+    font-size: 18px;
+    color: black;
+    font-weight: 100;
+    padding: 7px 7px;
+    margin-left: 40px;
+    border: 2px solid black;
+    background-color:#f76d37;
+    border-radius: 10px;
+}
+.container_detailpage .contentfordetailpage .btnpg:hover{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    padding: 7px 7px;
+    margin-left: 40px;
+    border: 2px solid black;
+    background-color:#000000;
+    border-radius: 10px;
+}
+.container_detailpage .contentfordetailpage .pt2{
+    font-size: 25px;
+    color: black;
+    font-weight: bold
+}
+.container_detailpage .contentfordetailpage .pt3{
+    font-size: 20px;
+    color: black;
+     font-family: monospace;
+    width: 800px;
+}
+.container_detailpage .contentfordetailpage  img{
+    width: 150px;
+    height: 150px;
+    margin-top: -20px;
+    margin-left: -25px;
+}
+.container_detailpage .contentfordetailpage  img:hover{
+   transform: scale(1.1);
+}
+
+
+
+
+
+

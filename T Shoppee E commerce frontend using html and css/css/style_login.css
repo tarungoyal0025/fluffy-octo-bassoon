@@ -1,0 +1,116 @@
+.heading_login_para{
+    color: #f76d37;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 55px;
+    text-align: center; 
+    margin-bottom: 0px;
+}
+.heading_aboutus_para{
+    color: #f76d37;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.heading_product_para{
+    color: #000000;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.header_section{
+    margin-bottom: 20px;
+}
+.heading_contact_para{
+    color: black;
+    font-family: monospace;
+    font-size: 55px;
+    text-align: center; 
+}
+.heading_contact{
+margin-top: 20px;
+margin-bottom: 60px;
+}
+.contact_info1{
+  margin-top: 10px;
+ color: black; 
+ text-align: center;  
+}
+.info1{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 150px;
+}
+.info1:hover{
+    color: gray;
+}
+.info2{
+    color: black;
+     font-size: 25px;
+     margin-top: 30px;
+}
+.contact_info2{
+ color: black; 
+ text-align: center;
+}
+.add1{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.add2{
+    color: black;
+    font-size: 25px;
+}
+.mainbtn{
+display: inline-block;
+background-color:#f76d37;
+color: black;
+margin-top: 10px;
+font-size: 20px;
+padding: 10px 20px 10px 20px;
+margin-left: 390px;
+margin-bottom: 60px;
+margin-top: 20px;
+}
+.sendbtn .mainbtn a:hover{
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+    background-color: #f76d37;
+}
+
+.fyp{
+    font-size: 20px;
+    color: black;
+    float: left;
+    margin: 25px 10px;
+}
+
+.contentofabout{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+.contentofabout2{
+    color: black;
+}
+.infoabout1{
+    margin-left: 500px;
+    font-size: 40px;
+    color: #f76d37;
+    font-weight: bold;
+    font-family: monospace;
+    margin-bottom: 10px;
+}
+.infoabout2{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align:center;
+}

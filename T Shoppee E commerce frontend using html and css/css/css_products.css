@@ -1,0 +1,385 @@
+.center-text h2{
+    color: #111;
+    margin-top: 10px;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: monospace;
+}
+
+.center-text span{
+    color:rgb(0, 0, 0);
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 2rem;    
+}
+
+.quantity input{
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    display: inline;
+    padding-top: 0px;
+}
+.quantity a{
+margin-left: 15px;
+border: 2px solid black;
+background-color: #f76d37;
+color: black;
+padding: 10px 25px;
+font-size: 15px;
+font-weight:200;
+border-radius: 21px;
+}
+.row{
+    position: relative;
+    transition: all .40s;
+}
+.row img{
+    width: 100%;
+    height: auto;
+    transition: all .40s;
+}
+.row img:hover{
+    transform: scale(1.1);
+}
+.product-text h5{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #27b737;
+    padding: 3px 10px;
+    border-radius: 2px;
+}
+.heart-icon{
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    color: red;
+}
+.heart-icon:hover{
+    color: #EE1C47;
+}
+.ratting i{
+    color: #ff0000;
+    font-size: 18px;
+}
+.price h4{
+    color: #111;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.price p{
+    margin-top: 0px;
+    color: #151515;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.pagebtn{
+margin-left: 600px;
+margin-top: 40px;
+margin-bottom: 30px;
+color: black;
+font-size: large;
+}
+.pagebtn span{
+    display: inline-block;
+    border: 2px solid black;
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.pagebtn span:hover{
+    color: #000000;
+    background-color: #f76d37;
+}
+
+
+.client-reviews{
+    background-color: #F3F4F6;
+    margin-top: 10px;
+}
+
+   /* for the add review btn
+.client-reviews .review_btn{
+  color: black;
+    font-size: 18px;    
+     margin-left: 1000px; 
+     border: 2px solid black;
+     padding: 5px 5px;  
+}
+
+.client-reviews .review_btn:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 109, 55); 
+} */
+
+
+
+
+  
+  #reviewForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 20px
+  }
+  
+  textarea,
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 16px;
+    background-color: rgb(247, 109, 55);
+    color: Black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: black;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.reviews{
+    text-align: center;
+    margin-top: 10px;
+}
+.reviews h3{
+    margin-top: 30px;
+    color: #f76d37;
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: monospace;
+    text-align: center;
+    font-weight: 700;
+}
+.reviews img{
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+    margin: 10px 0;
+}
+.reviews pre{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.reviews h2{
+    font-size: 22px;
+    color: #000;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.client-reviews a {
+    color: black;
+    font-size: 18px;    
+     margin-left: 1000px; 
+     border: 2px solid black;
+     padding: 2px 2px;  
+}
+.client-reviews a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 109, 55); 
+}
+
+
+/* cart css */
+
+.container_cart{
+    margin: 80px auto;
+    margin-left: 200px;
+}
+.container_cart table{
+    width: 80%;
+    border-collapse: collapse;
+}
+.propic{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_cart th{
+text-align: left;
+padding: 5px;
+color: black;
+background-color: #f76d37;
+font-weight: bold;
+font-size: 20px;
+}
+.container_cart .propic img{
+    width: 200px;
+    height: 200px;
+    padding: 3px 3px;
+
+}
+.container_cart td input{
+    width: 50px;
+    height: 40px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 2px solid black;
+}
+.container_cart td p{
+    color:black;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.container_cart td small{
+    color:black;
+    font-size: 18px;
+}
+.container_cart .tt{
+    color: black;
+    font-size: 18px;
+}
+
+.container_cart .ttlprc{
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+}
+.container_cart .ttlprc table{
+    border-top: 2px solid #f76d37 ;
+    width: 300px;
+}
+td:last-child{
+    text-align: right;
+}
+.container_cart .ttlprc td{
+    color:black;
+    font-size: 23px;
+}
+
+
+
+/* order history css */
+
+.headingfororders{
+    font-size: 40px;
+    color: black;
+    margin-left: 220px;
+}
+.container_orders{
+    margin: 40px auto;
+    margin-left: 200px;
+}
+.container_orders .propic img{
+    width: 200px;
+    height: 200px;
+    padding: 3px 3px;
+}
+
+
+.container_orders td p{
+    color:rgb(0, 0, 0);
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.container_orders table{
+    width: 80%;
+    border-collapse: collapse;
+}
+.container_cart .first{
+    margin-bottom: 20px;
+}
+.container_orders .ttlprc td{
+    color:black;
+    font-size: 23px;
+}
+.container_orders .ttlprc table{
+    border-top: 3px solid #000000 ;
+    width: 300px;
+}
+.container_orders .ttlprc td{
+    color: black;
+}
+.container_orders .ttlprc{
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+}
+.container_orders .tt{
+    margin-top: 0px;
+    color: black;
+    font-size: 20px;
+}
+.container_orders .tfirst{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.container_orders .tfirst th{
+    color: black;
+    font-size: 20px;
+}
+
+.container_orders table h3{
+    color: #000;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 10px 0px;
+    margin-bottom: 2px;
+}
+
+.container_orders .last{
+    width: 100%;
+    padding: 0px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+.container_orders .propic select{
+    border: 2px solid black;
+    font-size: 15px;
+    width: 40px;
+    height: 30px;
+    padding: 5px 5px;
+}
+
+
