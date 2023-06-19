@@ -115,4 +115,26 @@
 </div>
    
 </body>
+    <script>
+    function validateForm() {
+        var email = document.getElementsByName("Email")[0].value;
+        var password = document.getElementsByName("password")[0].value;
+
+        if (email === '' || password === '') {
+            alert("Please fill in all fields.");
+            return false; 
+        }
+        return true;
+    }
+
+   
+    function handleLogin() {
+        if (validateForm()) {
+            alert("Login successful!"); 
+        }
+    }
+
+    var loginButton = document.querySelector(".mainbtn");
+    loginButton.addEventListener("click", handleLogin);
+</script>
 </html>
