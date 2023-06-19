@@ -175,5 +175,48 @@
         </div>
     </div>
 </body>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      
+      var container = document.querySelector('.container_cart');
+      var cartTable = container.querySelector('table');
+      var subtotalCell = container.querySelector('.ttlprc table tr:first-child td:last-child');
+      var taxCell = container.querySelector('.ttlprc table tr:nth-child(2) td:last-child');
+      var totalCell = container.querySelector('.ttlprc table tr:last-child td:last-child');
+  
+      function updateCartTotals() {
+        var subtotal = 0;
 
+        var productRows = cartTable.querySelectorAll('tr:not(:first-child)');
+        productRows.forEach(function(row) {
+          var quantityInput = row.querySelector('input[type="number"]');
+          var priceCell = row.querySelector('.tt');
+  
+          var quantity = parseInt(quantityInput.value);
+          var price = parseInt(priceCell.innerText.replace('₹', ''));
+          var subtotalForRow = quantity * price;
+  
+          priceCell.innerText = '₹' + subtotalForRow;
+  
+          subtotal += subtotalForRow;
+        });
+  
+      
+        var tax = Math.round(subtotal * 0.01); 
+        var total = subtotal + tax;
+  
+       
+        subtotalCell.innerText = '₹' + subtotal;
+        taxCell.innerText = '₹' + tax;
+        totalCell.innerText = '₹' + total;
+      }
+  
+      
+      var quantityInputs = container.querySelectorAll('input[type="number"]');
+      quantityInputs.forEach(function(input) {
+        input.addEventListener('input', updateCartTotals);
+      });
+    });
+
+</script>
 </html>
